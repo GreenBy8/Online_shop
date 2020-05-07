@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	    <meta charset="utf-8">
+        <title>Интернет-магазин | ARCHER</title>
+	    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3316b1cf5e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="log_reg">
+                    <a href="index.html" class="logo">Archer</a>
+            </div>  
+            <div class="nav2">
+                <div class="container">
+                    <ul class="site-pagination">
+                        <li><a href="index.html">Главная</a></li>
+                        <li>Регистрация</li>
+                    </ul>
+                </div>
+            </div>    
+        </header>
+        <!-- Registration form-->
+        <div class="reg" style="background: url(img/abstract.jpg) no-repeat; background-position: center; background-size: 45%;">
+            <div class="container mregister">
+                <div id="login">
+                    <h1>Регистрация</h1>
+                    <form action="php/register.php" id="registerform" method="POST" name="registerform">
+                        <label for="user_login">ФИО</label>
+                        <input class="input" id="full_name" name="full_name" type="text" required>
+                        <label for="user_pass">E-mail</label>
+                        <input class="input" id="email" name="email" type="email" required>
+                        <label for="user_pass">Имя пользователя</label>
+                        <input class="input" id="username" name="username" type="text" required>
+                        <label for="user_pass">Пароль</label>
+                        <input class="input" id="password" name="password"   type="password" required>
+                        <button class="button" id="register" type="submit">Зарегистрироваться</button>
+	                    <p class="regtext">Уже зарегистрированы? <a href= "login.html">Введите имя пользователя</a>!</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+         <!-- Section footer -->
+         <footer class="footer_reg">
+                © 2020 <a href="index.html">Интернет-магазин | Archer</a>. Все права защищены.
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>        
+</html>

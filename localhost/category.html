@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	    <meta charset="utf-8">
+        <title>Интернет-магазин | ARCHER</title>
+	    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3316b1cf5e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="top_head">
+                    <div class="cont">
+                        <a href="index.html" class="logo">Archer</a>
+                        <form action="" class="search">
+                            <input type="search" class="search-input" placeholder="Луки, арбалеты, стрелы...">
+                            <button type="submit" class="search-button">
+                                <img src="img/icons/search-icon.svg" alt="search-icon">
+                            </button>
+                        </form>
+                        <div class="user">
+                            <ul>
+                                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="login.html"><i class="fas fa-user"></i></a></li>
+                                <li><a href="registration.html"><i class="fas fa-sign-in-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+                <!-- Navigation -->
+	                <nav class="menu">
+		                <div class="cont">
+                            <ul class="topmenu">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="about_us.html">О компании</a>
+                                </li>
+                                <li><a href="category.html">Каталог</a>
+                                    <ul class="submenu">
+                                        <li><a href="category.html">Арбалеты</a></li>
+                                        <li><a href="category.html">Луки</a></li>
+                                        <li><a href="category.html">Тетивы</a></li>
+                                        <li><a href="category.html">Чехлы</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Контакты</a></li>
+			                </ul>
+                        </div> 
+                    </nav>
+                </div>
+            </div>
+        </header>  
+        <!-- Navigation_2 -->
+        <div class="nav2">
+            <div class="container">
+                <ul class="site-pagination">
+                    <li><a href="index.html">Главная</a></li>
+                    <li>Каталог</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Product section -->
+        <div id="body">
+            <div class="container">
+                <div class="pagination">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-left"></i></a></li>
+                        <li><a href="#">1</a></li>
+                        <li class="active"><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="products-wrap">
+                    <aside id="sidebar">
+                        <div class="col">
+                            <div class="filter_widget">
+                                <h2>Каталог</h2>
+                                <ul class="category-menu">
+                                    <li><a href="#">Арбалеты</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Блочные арбалеты <span>[35]</span></a></li>
+                                            <li><a href="#">Арбалет-пистолеты<span>[7]</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Луки</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Блочные луки <span>[25]</span></a></li>
+                                            <li><a href="#">Классические луки <span>[56]</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Стрелы</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Стрелы для арбалета <span>[16]</span></a></li>
+                                            <li><a href="#">Стрелы для лука <span>[28]</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Тетивы</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Тетивы для арбалета <span>[42]</span></a></li>
+                                            <li><a href="#">Тетивы для лука <span>[40]</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Чехлы</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <h3>Бренд:</h3>
+                            <fieldset>
+                                <input checked type="checkbox">
+                                <label>Poe Lang</label>
+                                <input type="checkbox">
+                                <label>Weifang</label>
+                                <input type="checkbox">
+                                <label>Mathews</label>
+                                <input type="checkbox">
+                                <label>Man Kung</label>
+                                <input type="checkbox">
+                                <label>PSE Archery</label>
+                                <input type="checkbox">
+                                <label>Bohning</label>
+                                <input type="checkbox">
+                                <label>Hori-Zone</label>
+                                <input type="checkbox">
+                                <label>Legend Archery</label>
+                                <input type="checkbox">
+                                <label>Archery</label>
+                            </fieldset>
+                        </div>
+                        <div class="widget">
+                            <h3>Цена:</h3>
+                            <fieldset style="border: none;">
+                                <div id="price-range"></div>
+                            </fieldset>
+                        </div>
+                    </aside>
+                    <div id="content">
+                        <section class="products">
+                            <article>
+                                <a href="product.html"><img src="img/category/13.jpg" alt="13"></a>
+                                <h3><a href="product.html">Блочный арбалет Mission Sub-1 XB</a></h3>
+                                <h4><a href="product.html">175 000 ₽</a></h4>
+                                <a href="cart.html" class="btn-add">В корзину</a>
+                            </article>
+                            <article>
+                                <a href="product.html"><img src="img/category/14.jpg" alt="14"></a>
+                                <h3><a href="product.html">Арбалет-пистолет Аспид</a></h3>
+                                <h4><a href="product.html">4 950 ₽</a></h4>
+                                <a href="cart.html" class="btn-add">В корзину</a>
+                            </article>
+                            <article>
+                                <a href="product.html"><img src="img/category/15.jpg" alt="15"></a>
+                                <h3><a href="product.html">Лук PSE - Discovery</a></h3>
+                                <h4><a href="product.html">34 800 ₽</a></h4>
+                                <a href="cart.html" class="btn-add">В корзину</a>
+                            </article>
+                            <article>
+                                <a href="product.html"><img src="img/category/16.jpg" alt="16"></a>
+                                <h3><a href="product.html">Традиционный лук Viper - 68</a></h3>
+                                <h4><a href="product.html">18 100 ₽</a></h4>
+                                <a href="cart.html" class="btn-add">В корзину</a>
+                            </article>
+                            <article>
+                                <a href="product.html"><img src="img/category/17.jpg" alt="17"></a>
+                                <h3><a href="product.html">Стрелы для арбалета TAC Elite</a></h3>
+                                <h4><a href="product.html">10 600 ₽</a></h4>
+                                <a href="cart.html" class="btn-add">В корзину</a>
+                            </article>
+                            <article>
+                                <a href="product.html"><img src="img/category/18.jpg" alt="18"></a>
+                                <h3><a href="product.html">Стрела для лука CX-5</a></h3>
+                                <h4><a href="product.html">395 ₽</a></h4>
+                                <a href="cart.html" class="btn-add">В корзину</a>
+                            </article>
+                            <article>
+                                <a href="product.html"><img src="img/category/19.jpg" alt="19"></a>
+                                <h3><a href="product.html">Тетива для арбалет-пистолета Аспид</a></h3>
+                                <h4><a href="product.html">430 ₽</a></h4>
+                                <a href="cart.html" class="btn-add">В корзину</a>
+                            </article>
+                            <article>
+                                <a href="product.html"><img src="img/category/20.jpg" alt="20"></a>
+                                <h3><a href="product.html">Рюкзак для лука Competitor</a></h3>
+                                <h4><a href="product.html">5 050 ₽</a></h4>
+                                <a href="cart.html" class="btn-add">В корзину</a>
+                            </article>
+                        </section>
+                    </div>
+                    <!-- / content -->
+                </div>
+                <div class="pagination">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-left"></i></a></li>
+                        <li><a href="#">1</a></li>
+                        <li class="active"><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">Archer</a>
+                </div>
+                <div class="cols">
+                    <div class="col">
+                        <div class="footer-widget about-widget">
+                            <h3>About us</h3>
+                            <p>Магазин «Archer» один из первых магазинов по продаже лучно-арбалетной продукции.</p>
+                            <img src="img/icons/cards.png">
+                        </div>
+                    </div>
+                    <div class="col media">
+                        <h3>Social media</h3>
+                        <ul class="social">
+                            <li><a href="#"><i class="fab fa-vk"></i> Vkontakte</a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                        </ul>
+                    </div>
+                    <div class="col contact">
+                        <h3>Contact us</h3>
+                        <p>Интернет-магазин | Archer<br>ул. Патриса-Лумумбы, 15<br>Казань</p>
+                        <p><i class="far fa-envelope"></i> <a href="#"> raksana1998@mail.ru</a></p>
+                        <p><i class="fas fa-mobile-alt"></i> +7 (916) 423 44 69</p>
+                    </div>
+                    <div class="col news">
+                        <h3>Join our fresh news</h3>
+                        <p>Мы всегда стараемся отправлять только актуальные и свежие объявления и новости.</p>
+                        <form action="#">
+                            <input type="text" placeholder="Ваш Email..." >
+                            <button type="submit"><i class="fas fa-plus"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <p class="copy">Copyright 2020 Archer. All rights reserved.</p>
+            </div>
+        </footer>
+        
+     <!--====== Javascripts & Jquery ======-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="js/plugins.js"></script>
+     <script src="js/main.js"></script>
+    </body>
+
+</html>

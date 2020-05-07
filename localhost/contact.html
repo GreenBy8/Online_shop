@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	    <meta charset="utf-8">
+        <title>Интернет-магазин | ARCHER</title>
+	    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3316b1cf5e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="top_head">
+                    <div class="cont">
+                        <a href="index.html" class="logo">Archer</a>
+                        <form action="" class="search">
+                            <input type="search" class="search-input" placeholder="Луки, арбалеты, стрелы...">
+                            <button type="submit" class="search-button">
+                                <img src="img/icons/search-icon.svg" alt="search-icon">
+                            </button>
+                        </form>
+                        <div class="user">
+                            <ul>
+                                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                                <li><a href="login.html"><i class="fas fa-user"></i></a></li>
+                                <li><a href="registration.html"><i class="fas fa-sign-in-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+                <!-- Navigation -->
+	                <nav class="menu">
+		                <div class="cont">
+			                <ul class="topmenu">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="about_us.html">О компании</a></li>
+                                <li><a href="category.html">Каталог</a>
+                                    <ul class="submenu">
+                                        <li><a href="category.html">Арбалеты</a></li>
+                                        <li><a href="category.html">Луки</a></li>
+                                        <li><a href="category.html">Тетивы</a></li>
+                                        <li><a href="category.html">Чехлы</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Контакты</a></li>
+			                </ul>
+                        </div> 
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Navigation_2 -->
+        <div class="nav2">
+            <div class="container">
+                <ul class="site-pagination">
+                    <li><a href="index.html">Главная</a></li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Contact section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col contact-info">
+                        <h2>Контакты</h2>
+                        <div class="adress">
+                            <h3>Свяжитесь с нами!</h3>
+                            <p>ул. Патриса-Лумумбы, 15</p>
+                            <p>р. Татарстан, г. Казань</p>
+                            <p><i class="far fa-envelope"></i> <a href="#"> raksana1998@mail.ru</a></p>
+                            <p><i class="fas fa-mobile-alt"></i> <a href="tel: +79164234469">  +7 (916) 423 44 69</a></p>
+                        </div>        
+                        <form action="php/sms.php" method="POST" class="contact-form">
+                            <h3>Если у Вас есть вопросы, то не стесняйтесь написать нам!</h3>
+                            <input type="text" placeholder="Ваше имя" name="name_pos" required>
+                            <input type="text" placeholder="Ваш номер телефона" name="phone" required>
+                            <textarea placeholder="Сообщение..." name="mesage"></textarea>
+                            <button type="submit" class="send_btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2242.996274406494!2d49.17131071549054!3d55.79330259633576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead78a2032f01%3A0xd69a6fd61ccc4479!2z0YPQuy4g0J_QsNGC0YDQuNGB0LAg0JvRg9C80YPQvNCx0YssIDE1LCDQmtCw0LfQsNC90YwsINCg0LXRgdC_LiDQotCw0YLQsNGA0YHRgtCw0L0sIDQyMDA3Mw!5e0!3m2!1sru!2sru!4v1588353356594!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+        <!-- Section footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">Archer</a>
+                </div>
+                <div class="cols">
+                    <div class="col">
+                        <div class="footer-widget about-widget">
+                            <h3>About us</h3>
+                            <p>Магазин «Archer» один из первых магазинов по продаже лучно-арбалетной продукции.</p>
+                            <img src="img/icons/cards.png">
+                        </div>
+                    </div>
+                    <div class="col media">
+                        <h3>Social media</h3>
+                        <ul class="social">
+                            <li><a href="#"><i class="fab fa-vk"></i> Vkontakte</a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                        </ul>
+                    </div>
+                    <div class="col contact">
+                        <h3>Contact us</h3>
+                        <p>Интернет-магазин | Archer<br>ул. Патриса-Лумумбы, 15<br>Казань</p>
+                        <p><i class="far fa-envelope"></i> <a href="#"> raksana1998@mail.ru</a></p>
+                        <p><i class="fas fa-mobile-alt"></i> +7 (916) 423 44 69</p>
+                    </div>
+                    <div class="col news">
+                        <h3>Join our fresh news</h3>
+                        <p>Мы всегда стараемся отправлять только актуальные и свежие объявления и новости.</p>
+                        <form action="#">
+                            <input type="text" placeholder="Ваш Email..." >
+                            <button type="submit"><i class="fas fa-plus"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <p class="copy">Copyright 2020 Archer. All rights reserved.</p>
+            </div>
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+        
+</html>
